@@ -1,0 +1,139 @@
+header {
+  background: linear-gradient(to right, black, transparent), url(images/blog-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.container.header {
+  padding: 0;
+  overflow: hidden;
+}
+
+.top-menu {
+  display: table;
+  width: 100%;
+  padding: 5px 20px;
+}
+
+.container{
+  width: 1170px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.logo {
+  float: left;
+  width: 300px;
+}
+
+.banner-list-items ul li a span {
+  font-weight: 800;
+}
+
+.logo h1 {
+  color: #ffffff;
+  display: inline-block;
+  padding: 5px;
+  background: linear-gradient(to right, #ff0000, #094c2dd9);
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.banner-left {
+  width: 425px;
+  float: left;
+  margin: 15px 0;
+}
+
+.banner-right {
+  width: 500px;
+  float: right;
+}
+
+.banner-head h1 {
+  color: white;
+}
+
+.banner-head p {
+  color: white;
+  line-height: 25px;
+}
+
+.banner-list-items {
+  padding: 20px 0;
+}
+
+.banner-list-items ul {
+  list-style: none;
+}
+
+.banner-list-items ul li a {color: white;text-decoration: none;line-height: 25px;}
+
+i.arrow-icon:before {
+  content: "\00BB";
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: 900;
+  color: tomato;
+}
+.logo h1:hover {
+  background: linear-gradient(to right, #094c2dd9, #ff0000);
+}
+
+
+.menu-holder {
+  float: right;
+  width: 700px;
+  line-height: 50px;
+}
+
+ul.menu {
+  list-style: none;
+}
+
+ul.menu li {
+  float: left;
+  padding-left: 25px;
+  position: relative;
+}
+
+ul.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  display: block;
+}
+
+ul.menu li a:hover {
+  color: red;
+}
+
+ul.menu li:hover ul.sub-menu {
+  transform: scale(1);
+}
+
+ul.sub-menu {
+  width: 200px;
+  list-style: none;
+  background: #00000038;
+  position: absolute;
+  top: 50px;
+  border-radius: 5px;
+  padding: 0;
+  transition: .4s;
+  transform-origin: top;
+  transform: scale(0);
+}
+
+ul.sub-menu li {
+  float: none !important;
+  padding: 5px 0;
+}
+ul.sub-menu li a {
+  padding-left: 15px;
+}
+
+ul.sub-menu li:hover{
+  background-color: rgba(128, 128, 128, 0.383);
+}
