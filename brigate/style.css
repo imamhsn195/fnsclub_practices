@@ -508,3 +508,58 @@ ul.package_items i {
 .single_price_card button:hover{
     background: #000;
 }
+section#idea_section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.idea_section_left {
+    float: left;
+}
+
+.idea_section_right {
+    float: left;
+    background: #222;
+    color: #fff;
+    padding: 50px 70px;
+}
+
+.idea_section_right h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 35px 0;
+}
+
+.idea_section_right p {
+    margin-bottom: 16px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.ideas_holder {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+}
+
+.single_idea .icon i {
+    font-size: 40px;
+    color: #ff5200;
+    margin: 20px 0px;
+}
+
+.single_idea {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.single_idea .des {
+    margin-top: 10px;
+}
+.single_idea .des h3:hover {
+    color: #ff5200;
+}
+
+.single_idea .des h3 {
+    transition: .3s;
+}
